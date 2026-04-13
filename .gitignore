@@ -1,0 +1,12 @@
+# Personal data - do not commit
+*.csv
+*.pdf
+Maybank statements/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
