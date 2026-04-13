@@ -2,7 +2,6 @@
 *.csv
 *.pdf
 Maybank statements/
-api-token.png
 
 # Claude & design files
 .claude/
