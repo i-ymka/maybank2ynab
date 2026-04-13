@@ -222,10 +222,8 @@ const PAYEE_MAPPINGS = [
     // Bills & Utilities
     { pattern: /TENAGA NASIONAL/i, payeeName: 'Tenaga Nasional Berhad', category: 'Electricity' },
     { pattern: /UNIFI|MYUNIFI/i, payeeName: 'MyUnifi', category: 'Internet' },
-    { pattern: /AMHO PROPERTY/i, payeeName: 'iLin Owner', category: 'Renting' },
-
     // Phone
-    { pattern: /YOODO/i, payeeName: 'FormerlyYoodo', category: 'Phone' },
+    { pattern: /YOODO/i, payeeName: 'Yoodo', category: 'Phone' },
     { pattern: /UMOBILE/i, payeeName: 'U Mobile', category: 'Phone' },
     { pattern: /U MO\b/i, payeeName: 'U Mo', category: 'Phone' },
 
@@ -270,11 +268,6 @@ const PAYEE_MAPPINGS = [
 
     // Gaming
     { pattern: /STEAM/i, payeeName: 'Steam', category: 'Hobbies' },
-
-    // Known people (transfers)
-    { pattern: /YEHIA IBRAHIM/i, payeeName: 'Yehia', category: null },
-    { pattern: /EVGRASHCHENKOV/i, payeeName: 'Drew', category: null },
-    { pattern: /FATIMAH NUR AMILINI/i, payeeName: 'Constructor', category: 'Service' },
 
     // Bank
     { pattern: /DIVIDEND PAID/i, payeeName: 'Maybank', category: null },
